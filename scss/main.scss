@@ -19,6 +19,13 @@ h1.logo {
   font-size: 4em;
 }
 
+h1.end {
+  position: relative;
+  color: #fff;
+  opacity: 0;
+  transition: 0.8s ease-in-out;
+}
+
 //Container style
 
 #container {
@@ -137,6 +144,12 @@ h1.logo {
   height: $progress-height;
   width: 0;
   transition: width 0.5s ease-in-out;
+}
+
+.close {
+  #next-btn, #prev-btn {
+    color: #fff;
+  }
 }
 
 //Error Form
