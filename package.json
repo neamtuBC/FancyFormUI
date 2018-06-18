@@ -1,0 +1,23 @@
+{
+  "name": "FancyFormUI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neamtuBC/FancyFormUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neamtuBC/FancyFormUI/issues"
+  },
+  "homepage": "https://github.com/neamtuBC/FancyFormUI#readme",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
